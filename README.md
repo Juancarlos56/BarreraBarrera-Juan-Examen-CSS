@@ -23,7 +23,7 @@ Agregacion de pantallasas de la base de datos, selects, inserts, ajax
 
 ##### Pantallasos de la base de Datos
 - Pantallaso del insert en la tabla de los usuarios
-![](https://github.com/Juancarlos56/Practica03-Javascript/blob/master/informe/formulario.png)
+![](https://github.com/Juancarlos56/BarreraBarrera-Juan-Examen/blob/master/examen/informe/baseExamen.PNG)
 ##### Pantallasos de los Selects
 
 - crearTickets.php 
