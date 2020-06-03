@@ -1,0 +1,354 @@
+/*Selector Universal*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 1;
+
+    background-color: white;
+    color: #403F3D;
+    
+}
+
+.logo #leftFloat{
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    width: 6%;
+    background-color: #AF927C;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+
+.logo #rightFloat{
+    width: 91%;
+    height: 125px;
+    margin-left: 10px;
+    padding: 0px 10px 0px 0px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+
+#rightFloat .posicionBoton{
+    width: 82%;
+    margin-top: 2px;
+    padding: 10px 10px 10px 10px;
+    line-height: 25px;
+    height: 88px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+
+#rightFloat .posicionBoton .container1{
+    width: 100%;
+    height: 25px;
+    margin-top: 1px;
+    margin-left: 2px;
+    padding-left: 20px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#rightFloat .posicionBoton .container1 .icon{
+    width: 3%;
+    position: absolute;
+    float: left;
+  }
+
+
+  #rightFloat .posicionBoton .container1 input.botonBuscar{
+    width: 95%;
+    height: 35px;
+    background: rgb(250, 249, 249);
+    border: none;
+    font-size: 10pt;
+    color: black;
+    padding-left: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  #rightFloat .opcionesUsuairo{
+    width: 10%;
+    padding: 2px 2px 2px 2px;
+    line-height: 25px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+
+#rightFloat .opcionesUsuairo .container2{
+    width: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: white;
+}
+
+#rightFloat .opcionesUsuairo .container2 .btnAcceder{
+    width: 15%;
+    margin-right: 40px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    float: left;
+    font-size: 24px;
+    font-family: 'Aleo', serif;
+    text-align: center;
+}
+
+
+
+
+#rightFloat .opcionesUsuairo .container2 .btnCrearCuenta{
+    width: 15%;
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 24px;
+    font-family: 'Aleo', serif;
+    text-align: center;
+}
+
+
+/* CSS PARA LA BARRA DE MENU */
+#rightFloat  #menu{
+    width: 72%;
+    height: 45px;
+    margin-top: 4%;
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    position: absolute;
+}
+
+#menu li{
+    font-size: 25px;
+    padding: 2px;
+    margin-left: 50px;
+    background-color: white;
+    color: #AF927C;
+    text-align: left;
+    display: inline-block;
+}
+
+#menu li a {
+    font-weight:600;
+    text-decoration:none;
+    padding: 10px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.897);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+#menu li a:hover, #menu li:hover > a{
+    color: black;
+    background: #FFE4E3;
+}
+
+
+.separador {
+    width: 100%;
+    height: 0px;
+    background-color: white;
+    clear: both;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    color: black;
+    background-color: black;
+}
+
+.footer  #footerlogo{
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #403F3D;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:130px;
+}
+
+.footer .container6{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    color: white;
+    
+}
+
+.footer .container6 .btnFacebook{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .container6 .btnInstagram {
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .container6 .estiloPiePagina {
+    width: 100%;
+    height: 270px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+   
+}
+
+.seccion1 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+ .listado {
+    width: 96%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 2%;
+    float: left;
+    background-color: white;
+}
+
+#busquedaSel{
+    width: 10%;
+    line-height: 3%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+#Formulario01 {
+    width: 30%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Formulario01 #cedula {
+    width: 60%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    font-size: 12px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}
+
+#Formulario01 #buscarCed {
+    width: 20%;
+    height: 3%;
+    margin-left: 5%;
+    float: left;
+    font-size: 12px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}
+
+#Formulario02 {
+    width: 30%;
+    height: 3%;
+    margin-left: 1%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Formulario02 #correo {
+    width: 60%;
+    height: 3%;
+    float: left;
+    margin-left: 1%;
+    font-size: 12px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}
+
+#Formulario02 #buscar {
+    width: 20%;
+    height: 3%;
+    margin-left: 5%;
+    float: left;
+    font-size: 12px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}
+
+#informacion {
+    width: 100%;
+    margin-left: 1%;
+    float: left;
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+}

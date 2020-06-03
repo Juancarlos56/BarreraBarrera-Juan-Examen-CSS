@@ -1,0 +1,78 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.error {
+    color: red;
+}
+
+
+.Formulario {
+    width: 100%;
+    height: 1000px;
+}
+
+.encabezado { 
+    width: 100%;
+    height: 100px;
+    float: left;  
+    background-color: black;
+}
+
+
+.encabezado  h1{ 
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: wheat;
+}
+
+
+
+.separador {
+    width: 100%;
+    height: 0px;
+    background-color: white;
+    clear: both;
+}
+
+.valores {
+    width: 100%;
+    height: 900px;
+    float: left;
+}
+
+.valores .estructuraFormulario{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    float: left;
+}
+
+.valores .estructuraFormulario #formulario01{
+    width: 100%;
+    height: 850px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgba(245, 241, 234, 0.87);
+}
+
+label {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+input {
+    width: 35%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: wheat;
+}

@@ -1,0 +1,41 @@
+
+form {
+    width: 50%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 17%;
+    position: absolute;
+}
+
+.imagenFondo{
+    width: 100%;
+    height: 100%;
+}
+
+
+h2{
+    margin-left: 37%;
+    margin-top: 7%;
+    margin-bottom: -4%;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+input{
+    margin-top: 5%;
+    margin-left: 37%;
+    font-size: 25px;
+    font-family: none;
+}
+
+.boton{
+    margin-top: 5%;
+    font-family: none;
+    border-style: groove;
+    margin-left: 45%;
+}
+
+a{
+    
+    float: left;
+}

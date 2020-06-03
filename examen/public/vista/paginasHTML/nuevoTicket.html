@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0">
+        <title>Inicio de Sesion</title>
+        <meta name="keywords" content="sesion, cat, inicio" />
+        <link rel="stylesheet" href="../css/crearCuenta.css" rel="stylesheet">
+        <script type="text/javascript" src="../javaScrip/formularioJS.js"></script>
+        <script src="../javaScrip/listarTelefonos.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <h1>
+        <img src=" ../../../config/Multimedia/imagesCSS/CrearCuenta.png" alt="fondo" id="fondo">
+    </h1>
+
+    <section>
+        <article>
+            <form id="formulario01" method="POST" action="../../controladores/crear_ticket.php" onsubmit="return validarCamposObligatorios()">
+
+                <!--
+                    - onkeyup: Cuando se deja de presionar sobre alguna tecla
+                    - onblur: Cuando se Seselecciona el elemento
+                -->
+        
+                <label for="cedula">Cedula (*)</label>
+                
+                <input type="text" id="cedula" name="cedula" value="" placeholder="Ingrese el número de cedula" onkeyup="validarNumeros(this)" onblur="buscarPorCedula()"/>
+                <br><br>
+                <input type="button" id="buscarCed" name="buscarCed" value="Buscar" onclick="buscarPorCedula()">
+                
+                <p id="mensajeCedula" class="error"></p>
+                
+                <div id="informacion"><b>Datos de la persona</b></div>
+
+                <div class="separador"></div>
+        
+                <label for="nombres">Placa (*)</label>
+                <input type="text" id="placa" name="placa" value="" placeholder="Ingrese la placa"/>
+                <p id="mensajeNombres" class="error"></p>
+                
+                <div class="separador"></div>
+        
+                <label for="apellidos">Marca (*)</label>
+                <input type="text" id="marca" name="marca" value="" placeholder="Ingrese  marca"/>
+                <p id="mensajeApellidos" class="error"></p>
+                
+                <div class="separador"></div>
+        
+                <label for="direccion">Modelo (*)</label>
+                <input type="text" id="modelo" name="modelo" value="" placeholder="Ingrese su modelo" />
+                <p id="mensajeDireccion" class="error"></p>
+              
+                <div class="separador"></div>
+
+                <label for="direccion">Numero de Ticket (*)</label>
+                <input type="text" id="numTicket" name="numTicket" value="" placeholder="Ingrese su Numero de Ticket" />
+                <p id="mensajeApellidos" class="error"></p>
+               
+                <div class="separador"></div>
+
+                <label for="correo">Fecha y hora de Ingreso</label>
+                <input type="date" id="fechaIngreso" name="fechaIngreso" value="" placeholder="Ej.: 11/05/2020"/>
+                <p id="mensajeCorreo" class="error"></p>
+                
+                <div class="separador"></div>
+        
+                <label for="constrasena">Fecha y hora de Salida (*)</label>
+                <input type="date" id="fechaSalida" name="fechaSalida" value="" placeholder="Ej.: 11/05/2020" />
+                <p id="mensajePW" class="error"></p>
+                
+                <div class="separador"></div>
+                
+                <button  id="botonR" type="submit" id="Registrar" name="Registrar" value="Crear Cuenta">Registrar Ticket</button>
+                <button id="botonC" type="button" id="Cancelar" name="Cancelar" value="Cancelar" onclick="location.href='index.html'">Cancelar</button>
+                
+            </form>
+        </article>
+
+        
+    </section>
+        
+
+</body>
+</html>

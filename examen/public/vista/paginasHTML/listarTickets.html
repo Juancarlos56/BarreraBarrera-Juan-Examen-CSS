@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--head es utilizado para marcar información sobre el documento-->
+<head>
+    <!--  
+        Information about Indie Rock page
+        Author: Juan Carlos Barrera Barrera  
+        Date:  04/04/2020 
+        Filename: contactos.html 
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indie Rock</title>
+    <!--metadatos para la pagina Indie Rock-->
+    <meta name="keywords" content="Indie Rock, musica, Juan, rock, videos" />
+ 
+    <link rel="stylesheet" href=" ../css/estilosCSS.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="../css/estilosListarTelefonos.css" type="text/css" media="screen"/>
+    <script src="../javaScrip/listarTelefonos.js" type="text/javascript"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+    
+
+
+</head>
+<!--etiqueta body se utiliza para marcar el contenido
+que aparecerá en la página web-->
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" title="Ir a la Pagina principal"> <img src="../../../config/Multimedia/images/LOGO.png" alt="Logo" id="leftFloat"> </a>
+            
+            <div id="rightFloat"> 
+                <div class="posicionBoton">
+                    <div class="container1">
+                        <span class="icon">
+                            <img src="../../../config/Multimedia/imagesCSS/search.png" alt="buscar">
+                        </span>
+    
+                        <input class="botonBuscar" type="search" autocapitalize="none" placeholder="Buscar..." value=""/>
+                    </div>
+                </div>
+
+                <div class="opcionesUsuairo">
+                    <div class="container2">
+                        <div class="btnAcceder">
+                           
+                            <a href="iniciarSesion.html">  <img src="../../../config/Multimedia/imagesCSS/user.png" alt="Acceder a la cuenta"> </a>
+                           
+                            <h5>Acceder</h5>
+                        </div>
+
+
+                        <div class="btnCrearCuenta">
+                            <a href="crearCuenta.html"><img src="../../../config/Multimedia/imagesCSS/nuevoUser.png" alt="Crear Cuenta"></a>
+                            
+                            <h5>Crear Cuenta</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="menu"> 
+                    <nav>
+                        <ol>       
+                            <li><a href="index.html">Pagina de Inicio</a> </li>
+                            <li><a href="contactos.html">Contactos</a> </li>
+                            <li><a href="aboutUs.html">About Us</a> </li>
+                            <li><a href="listarTelefonos.html">Registro de Telefonos</a> </li>
+                        </ol> 
+                    </nav>
+                </div>  
+            
+
+            </div>
+        </div>
+    </header>
+
+    <!--Esta es la barra de navegación principal del sitio. Sirve para definir 
+        una zona de navegación con vínculos entre las diferentes páginas.-->  
+    <div class="separador"> </div>
+
+    <section class="seccion1">
+        <div class="EncabezadoBI2" style="height: 110px;">
+            <header>
+                <h1 id="quienesSomos" style="font-size: 60px;">Información Telefónica</h1>
+            </header>
+        </div>
+        
+        <div class="separador"> </div>
+
+        <article class="listado">
+            <header>
+                <h2 class="Subtitulos" style="font-size: 30px; text-align: left;">Seleccione su metodo de Busqueda</h2> 
+            </header>
+            
+            <label for="cedula">Buscar por Cedula: </label>
+                
+            <input type="text" id="cedula" name="cedula" value="" placeholder="Ingrese el número de cedula" onkeyup="buscarPorCedula2()" onblur="buscarPorCedula2()"/>
+            <input type="button" id="buscarCed" name="buscarCed" value="Buscar" onclick="buscarPorCedula2()">
+            <p id="mensajeCedula" class="error"></p>
+
+            
+            <div class="separador"> </div>
+            <div id="informacion"><b>Datos de la persona</b></div>
+
+
+        </article>
+        
+        
+    </section>
+
+    <div class="separador"> </div>
+
+    <footer class="footer">
+        <!--A nivel de página sería la típica zona en la parte baja de la web, donde 
+            se suelen incluir datos de contacto, enlaces, etc-->
+        <div class="container6">
+
+            <span class="btnFacebook">
+                <img src="../../../config/Multimedia/imagesCSS/facebook.png" alt="Acceder a la cuenta">
+            </span>
+
+            <span class="btnInstagram">
+                <img src="../../../config/Multimedia/imagesCSS/instagram.png" alt="Enviar mensaje">
+            </span>
+
+            <div class="estiloPiePagina">
+                <div>
+                    <a href="index.html" title="Ir a la Pagina principal">  
+                        <img id="footerlogo" src="../../../config/Multimedia/images/LOGO.png" alt="logo" > 
+                    </a>
+                </div>
+                <p>
+                    &#169;Todos los derechos reservados.
+                </p>
+            </div>
+           
+        </div>   
+        
+        
+    </footer>
+</body>
+</html>
